@@ -1,0 +1,23 @@
+{
+  "name": "mission_3_backend",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "nodemon index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/brother-darkness/Mission_3_Backend.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/brother-darkness/Mission_3_Backend/issues"
+  },
+  "homepage": "https://github.com/brother-darkness/Mission_3_Backend#readme",
+  "dependencies": {
+    "express.js": "^1.0.0"
+  }
+}

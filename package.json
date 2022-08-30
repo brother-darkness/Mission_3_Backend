@@ -1,23 +1,22 @@
 {
-  "name": "mission_3_backend",
+  "name": "typescript-demo",
   "version": "1.0.0",
-  "description": "",
-  "main": "index.js",
+  "description": "typescript with express",
+  "main": "index.ts",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1",
-    "start": "nodemon index.js"
-  },
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/brother-darkness/Mission_3_Backend.git"
+    "dev":"nodemon src/index.ts",
+    "build":"tsc --project .",
+    "test": "echo \"Error: no test specified\" && exit 1"
   },
   "author": "",
   "license": "ISC",
-  "bugs": {
-    "url": "https://github.com/brother-darkness/Mission_3_Backend/issues"
-  },
-  "homepage": "https://github.com/brother-darkness/Mission_3_Backend#readme",
   "dependencies": {
-    "express.js": "^1.0.0"
+    "express": "^4.18.1",
+    "ts-node": "^10.9.1"
+  },
+  "devDependencies": {
+    "@types/express": "^4.17.13",
+    "nodemon": "^2.0.19",
+    "typescript": "^4.8.2"
   }
 }

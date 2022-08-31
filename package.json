@@ -18,6 +18,8 @@
   },
   "homepage": "https://github.com/brother-darkness/Mission_3_Backend#readme",
   "dependencies": {
-    "express.js": "^1.0.0"
+    "cors": "^2.8.5",
+    "express.js": "^1.0.0",
+    "ibm-watson": "^7.1.0"
   }
 }

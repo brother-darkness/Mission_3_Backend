@@ -1,7 +1,7 @@
 console.log('connected')
-
+//const functions = require("firebase-functions");
 const express = require('express')
-const cors = require('cors')
+const cors = require("cors")
 
 
 const app = express()
@@ -44,6 +44,3 @@ const discovery = new DiscoveryV2 ({
 app.listen(4321, () => {
     console.log('listening at port 4321')
 })
-    
-    
-    

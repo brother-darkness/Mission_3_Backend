@@ -25,7 +25,7 @@ app.post('app/:query',(req,res) => {
 })
 
 
-app.post('/searchbar/:quesry', (req, res) => {
+app.post('/searchbar/:query', (req, res) => {
     let queryQuestion =req.body.searchbar
 
     console.log(queryQuestion);
@@ -45,7 +45,7 @@ app.post('/searchbar/:quesry', (req, res) => {
     
     const params = {
       projectId: '392ced84-5c05-4957-bc41-b1218421f536',
-      query: 'text:car',
+      query: `text:${queryQuestion}`,
     };
     
     discovery.query(params)

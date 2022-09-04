@@ -28,5 +28,6 @@ jobs:
       with:
           args: deploy --only functions
       env:
-          FIREBASE_TOKEN: ${{ secrets.FIREBASE_SERVICE_ACCOUNT_MISSION_ADV_LV5_MIDDLEWARE }}
+          repoToken: '${{ secrets.GITHUB_TOKEN }}'
+          firebaseServiceAccount: '${{ secrets.FIREBASE_SERVICE_ACCOUNT_MISSION_ADV_LV5 }}'
           projectId: mission-adv-lv5-middleware
